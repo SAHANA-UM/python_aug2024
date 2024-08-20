@@ -11,11 +11,11 @@ Also check for invalid score
 avg_score = int(input('Enter average score for results: '))
 
  
-if avg_score <=100 and avg_score >= 91:
+if avg_score >= 91 and avg_score <= 100:
     print('Result is Distiction')  
-elif avg_score <= 90 and avg_score >= 75:
+elif avg_score >= 75 and avg_score <= 90:
     print('Result is First class')
-elif avg_score <=74 and avg_score >= 50:
+elif avg_score >=50 and avg_score <= 74:
     print('Result is Second class')    
 elif avg_score >= 0 and avg_score <= 49:
     print('Result is Fail')
