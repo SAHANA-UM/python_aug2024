@@ -1,0 +1,1 @@
+# Program to check if the alphabet is Vowel or Consonant
