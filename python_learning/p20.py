@@ -1,10 +1,10 @@
 '''
-Program to print the Right angled Triangle of N lines
-*
-**
-***
-****
-*****
+Program to print the Equi Lateral Triangle of N lines
+    *
+   ***
+  *****
+ *******
+*********
 '''
 
 num_rows = int(input('Enter the number of rows of right angled triangle: '))
