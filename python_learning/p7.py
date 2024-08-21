@@ -1,14 +1,18 @@
 #Program to check if a number is Perfect Square
 import math
-num = int(input('Enter a number: '))
+input_num = int(input('Enter a number to check if it is a perfect square: '))
 
 #check the input
-if num <= 0:
+if input_num <= 0:
     print("Invalid input!")
 
-root = math.sqrt(num)
+root_num = math.sqrt(input_num)
 
-if num == root * root:
-    print(num,"is a perfect square!")
+root_num = math.floor(root_num)
+
+product = root_num * root_num
+
+if product == input_num :
+    print(input_num,"is a perfect square!")
 else:
-    print(num ,"is not a perfect square")
+    print(input_num ,"is not a perfect square")
