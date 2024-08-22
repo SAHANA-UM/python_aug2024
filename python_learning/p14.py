@@ -1,36 +1,16 @@
 #Program to find 2nd smallest digit in a number
 
-def find_second_smallest(num):
-    # Convert the number into a string to iterate over each digit
-    num_str = str(num)
-    
-    # Initialize the smallest and second smallest variables
-    
-    smallest = 9
-    second_smallest = 9
-    
-    # Iterate over each digit in the number
-    
-    for digit in num_str:
-        digit = int(digit)
-        
-        # Update smallest and second smallest if necessary
-        
-        if digit < smallest:
-            second_smallest = smallest
-            smallest = digit
-        elif digit < second_smallest:
-            second_smallest = digit
-    
-    # Return the second smallest digit
-    
-    return second_smallest
+input_number = int(input('Enter a number to find 2nd smallest digit in it: '))
 
-# Test the function
-
-num = int(input("Enter a number: "))
-second_smallest_digit = find_second_smallest(num)
-print("The second smallest digit in", num, "is", second_smallest_digit)
-
-# Output: The second smallest digit in 12345 is 2
-
+temp_number = input_number
+small_digit = 9
+smallest_digit = 9
+while input_number != 0:
+    digit = input_number % 10 # fetch last digit
+    input_number = input_number // 10 #remove last digit
+    if smallest_digit > digit:
+        small_digit = smallest_digit
+        smallest_digit = digit
+    elif digit < small_digit:
+        small_digit = digit
+print(f'2nd smallest digit in {temp_number} is {small_digit}')
