@@ -25,3 +25,11 @@ insert into employee(name, designation, technology, phone_num, commission, salar
 insert into employee(name, designation, technology, phone_num, commission, salary, year_of_exp) values('rajeev', 'teamleader', 'python', '5552330014','18', '50000', 4);
 
 select * from employee; 
+
+select salary from employee;
+
+update employee
+set salary =100000
+where id = 14;
+
+select id = 14 from employee; 
