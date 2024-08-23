@@ -41,3 +41,8 @@ select * from persons where location in('Hubbli', 'Dharwad', 'Belgavi');
 
 select * from persons where location='Hubbli' or location='Dharwad' or location='Belgavi';
 
+select * from persons where location is null;
+
+select name as "person name", location as city from persons;
+
+
