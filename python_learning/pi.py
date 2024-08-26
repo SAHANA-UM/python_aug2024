@@ -9,7 +9,7 @@ def find_sum_of_odd_elements(NUMBERS):
 
 NUMBER = int(input("Enter the N value:"))
 
-NUMBERS = list()
+NUMBERS = []
 NUMBERS.append(int(input()))
 
 sum = find_sum_of_odd_elements(NUMBERS)
