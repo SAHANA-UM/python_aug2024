@@ -1,1 +1,22 @@
 python programs
+
+def my_function(some_list)
+is a call by reference function
+where the function my_function call the lit by reference
+
+in call by value , the list is copied and another copy is formed 
+
+find_sum_of_odd_elements(NUMBERS)
+    sum = 0
+    for i from 0 to size_of(NUMBERS)-1 do
+        if i % 2 == 0 then
+        SUM += NUMBERS(i)
+    return SUM
+numbers.append(int(input))
+
+Driver Code:
+    Read N
+    Read N elements of the list NUMBERS
+    sum = find_sum_of_odd_elements(NUMBERS)
+    if sum < 0:
+        print: server 1 delocated 
