@@ -10,10 +10,11 @@ def find_sum_of_odd_elements(NUMBERS):
 NUMBER = int(input("Enter the N value:"))
 
 NUMBERS = []
-NUMBERS.append(int(input()))
-
+for i in range (0, NUMBERS-1):
+    NUMBERS.append(int(input()))
+    
 sum = find_sum_of_odd_elements(NUMBERS)
 if sum < 0:
-    print('server 1 delocated ',math.abs(SUM) ,'units of memory')
+    print('server 1 delocated ',math.abs(sum) ,'units of memory')
 else:
-    print('server 1 allocated ',math.abs(SUM),'units of memory')
+    print('server 1 allocated ',math.abs(sum),'units of memory')

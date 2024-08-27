@@ -20,3 +20,5 @@ Driver Code:
     sum = find_sum_of_odd_elements(NUMBERS)
     if sum < 0:
         print: server 1 delocated 
+
+        
