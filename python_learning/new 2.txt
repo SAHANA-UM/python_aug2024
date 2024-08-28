@@ -1,0 +1,16 @@
+Take a 4 digit number, no digit should repeat more than 2 times
+rearrange the digits in decreasing order
+rearrange the digits in increasing order
+take the diference
+check if the difference number is same as the previous number
+
+if yes print the number of times thee algorithm applied
+
+else repeat the algorithm with the difference number in original number
+
+example:
+9521  6174
+1259  7641
+      1467
+	  
+8338
