@@ -25,3 +25,5 @@ Driver Code:
 write a python program to compile another python program
 
 important Code for data analysis 
+ function for debugging
+    python -m pdb -m
